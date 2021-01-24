@@ -599,15 +599,15 @@
              * Usage Search
             \*---------------------------------------------------------------*/
             {
-                "key": "alt+f7",
-                "mac": "alt+f7",
+                "key": "alt+f",
+                "mac": "alt+f",
                 "command": "references-view.find",
                 "when": "editorHasReferenceProvider",
                 "intellij": "Find usages"
             },
             {
-                "key": "alt+ctrl+f7",
-                "mac": "alt+cmd+f7",
+                "key": "alt+ctrl+f",
+                "mac": "alt+cmd+f",
                 "command": "editor.action.referenceSearch.trigger",
                 "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor",
                 "intellij": "Show usages"
@@ -672,12 +672,12 @@
                 "command": "workbench.view.debug",
                 "intellij": "Select configuration and debug"
             },
-            {
-                "key": "shift+f10",
-                "mac": "ctrl+r",
-                "command": "workbench.action.tasks.reRunTask",
-                "intellij": "Run"
-            },
+            // {
+            //     "key": "shift+f10",
+            //     "mac": "ctrl+r",
+            //     "command": "workbench.action.tasks.reRunTask",
+            //     "intellij": "Run"
+            // },
             {
                 "key": "shift+f9",
                 "mac": "ctrl+d",
@@ -875,8 +875,8 @@
                 "intellij": "Hide active or last active window (Debug Console)"
             },
             {
-                "key": "shift+escape",
-                "mac": "shift+escape",
+                "key": "alt+t",
+                "mac": "alt+t",
                 "command": "workbench.action.terminal.toggleTerminal",
                 "when": "terminalFocus",
                 "intellij": "Hide active or last active window (Terminal)"
@@ -1645,16 +1645,16 @@
                 "intellij": "Start new line"
             },
             {
-                "key": "alt+f12",
-                "mac": "alt+f12",
+                "key": "alt+t",
+                "mac": "alt+t",
                 "command": "workbench.action.terminal.focus",
                 "when": "!terminalFocus",
                 "intellij": "Opens and focuses corresponding tool window (Terminal)"
             },
             {
-                "key": "alt+f12",
-                "mac": "alt+f12",
-                "command": "workbench.action.terminal.toggleTerminal",
+                "key": "cmd+w",
+                "mac": "cmd+w",
+                "command": "workbench.action.terminal.kill",
                 "when": "terminalFocus",
                 "intellij": "Close corresponding tool window (Terminal)"
             },
